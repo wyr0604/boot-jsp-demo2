@@ -15,6 +15,7 @@ public class TesUserServiceImpl implements TestUserService {
     @Override
     public void addUser(TestUser user) {
         testUserMapper.insert(user);
+        //我只是想要测试一次
     }
 
     @Override
